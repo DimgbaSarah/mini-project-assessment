@@ -1,0 +1,104 @@
+body {
+  background-color: paleturquoise;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+
+.blog-list {
+  max-width: 800px;
+  margin: 20px auto; /* Center the list and add some space */
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+}
+
+/* Style for the list title */
+.blog-list h2 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 2em;
+}
+
+/* Styling for the loading indicator */
+.blog-list .loading-indicator {
+  text-align: center;
+  padding: 20px;
+  color: #007bff;
+  font-style: italic;
+  font-size: 1.1em;
+}
+
+/* Styling for the error message */
+.blog-list .error-message {
+  text-align: center;
+  padding: 15px;
+  background-color: #ffe0e0;
+  color: #d9534f;
+  border: 1px solid #d9534f;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* Styling for the "No posts found" message */
+.blog-list .no-posts-message {
+  text-align: center;
+  padding: 20px;
+  color: #777;
+  font-size: 1.1em;
+}
+
+/* Remove default list styling */
+.blog-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Style individual list items (blog post cards) */
+.blog-list li {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  padding: 20px;
+  margin-bottom: 15px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.blog-list li:hover {
+  transform: translateY(-3px); /* Subtle lift effect on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.12);
+}
+
+/* Style for blog post titles */
+.blog-list li h3 {
+  color: #0056b3;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 1.5em;
+}
+
+/* Style for blog post body text */
+.blog-list li p {
+  color: #555;
+  line-height: 1.6;
+}
+.App h2{
+  color: #0056b3;
+  text-align: center;
+}

@@ -1,7 +1,8 @@
 # Getting Started with Create React App
 
 This is a simple React application built as part of the 3MTT learning path. It renders the message "Hello World" using JSX and functional components.
-Project Overview✅ Built with React 18+ using Create React App (CRA)
+Project Overview
+✅ Built with React 18+ using Create React App (CRA)
 ✅ Uses semantic HTML (<h1>Hello World</h1>)
 ✅ Functional components only
 ✅ Follows best practices for project structure
